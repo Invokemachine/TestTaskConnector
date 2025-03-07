@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AzatYTebiLove\\source\\repos\\TestTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\azatytebilove\\source\\repos\\testtask\\testtask\\notifypropertychanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\notifypropertychanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\azatytebilove\\source\\repos\\testtask\\testtask\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\azatytebilove\\source\\repos\\testtask\\testtask\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\azatytebilove\\source\\repos\\testtask\\testtask\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\azatytebilove\\source\\repos\\testtask\\testtask\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\AzatYTebiLove\\source\\repos\\TestTask\\TestTask\\App.xaml",
+              "RelativeDocumentMoniker": "TestTask\\App.xaml",
+              "ToolTip": "C:\\Users\\AzatYTebiLove\\source\\repos\\TestTask\\TestTask\\App.xaml",
+              "RelativeToolTip": "TestTask\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T14:40:46.251Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotifyPropertyChanged.cs",
+              "DocumentMoniker": "C:\\Users\\AzatYTebiLove\\source\\repos\\TestTask\\TestTask\\NotifyPropertyChanged.cs",
+              "RelativeDocumentMoniker": "TestTask\\NotifyPropertyChanged.cs",
+              "ToolTip": "C:\\Users\\AzatYTebiLove\\source\\repos\\TestTask\\TestTask\\NotifyPropertyChanged.cs",
+              "RelativeToolTip": "TestTask\\NotifyPropertyChanged.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:54:50.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AzatYTebiLove\\source\\repos\\TestTask\\TestTask\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "TestTask\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\AzatYTebiLove\\source\\repos\\TestTask\\TestTask\\MainViewModel.cs",
+              "RelativeToolTip": "TestTask\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:51:03.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\AzatYTebiLove\\source\\repos\\TestTask\\TestTask\\Windows\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TestTask\\Windows\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\AzatYTebiLove\\source\\repos\\TestTask\\TestTask\\Windows\\MainWindow.xaml",
+              "RelativeToolTip": "TestTask\\Windows\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T12:26:01.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AzatYTebiLove\\source\\repos\\TestTask\\TestTask\\Windows\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TestTask\\Windows\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\AzatYTebiLove\\source\\repos\\TestTask\\TestTask\\Windows\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TestTask\\Windows\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T12:25:56.211Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
