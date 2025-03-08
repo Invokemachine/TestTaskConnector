@@ -28,7 +28,8 @@ public partial class MainWindow : Window
 
     private void GetTrades_Click(object sender, RoutedEventArgs e)
     {
-        MessageBox.Show("Я трейды, я работаю");
+        RestAPIClient restAPIClient = new RestAPIClient();
+        Task task = RestAPIClient.Main(null);
     }
 
     private void GetCandles_Click(object sender, RoutedEventArgs e)
