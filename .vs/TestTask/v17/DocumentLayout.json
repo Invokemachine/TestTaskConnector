@@ -62,8 +62,7 @@
               "RelativeToolTip": "TestTask\\Models\\Request.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T07:01:10.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T07:01:10.813Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "TestTask\\Services\\WebSocketAPIClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADgvxsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T06:59:15.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T06:59:15.686Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "TestTask\\Windows\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAiwBUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T08:47:43.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T08:47:43.602Z"
             },
             {
               "$type": "Document",
@@ -111,7 +108,7 @@
               "RelativeDocumentMoniker": "TestTask\\Controllers\\RestAPIController.cs",
               "ToolTip": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Controllers\\RestAPIController.cs",
               "RelativeToolTip": "TestTask\\Controllers\\RestAPIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T16:51:03.348Z",
               "EditorCaption": ""
