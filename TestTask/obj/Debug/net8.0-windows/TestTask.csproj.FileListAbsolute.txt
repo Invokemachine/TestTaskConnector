@@ -69,3 +69,4 @@ C:\Users\q\source\repos\TestTaskConnector\TestTask\obj\Debug\net8.0-windows\refi
 C:\Users\q\source\repos\TestTaskConnector\TestTask\obj\Debug\net8.0-windows\TestTask.pdb
 C:\Users\q\source\repos\TestTaskConnector\TestTask\obj\Debug\net8.0-windows\TestTask.genruntimeconfig.cache
 C:\Users\q\source\repos\TestTaskConnector\TestTask\obj\Debug\net8.0-windows\ref\TestTask.dll
+C:\Users\q\source\repos\TestTaskConnector\TestTask\bin\Debug\net8.0-windows\RestSharp.dll

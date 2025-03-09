@@ -20,6 +20,7 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        RestAPIClient rest = new RestAPIClient();
     }
 
     private void ShowBalance_Click(object sender, RoutedEventArgs e)
@@ -29,7 +30,7 @@ public partial class MainWindow : Window
 
     private void GetTrades_Click(object sender, RoutedEventArgs e)
     {
-        
+        _ = RestAPIClient.GetTrades();
     }
 
     private void GetCandles_Click(object sender, RoutedEventArgs e)
@@ -39,7 +40,7 @@ public partial class MainWindow : Window
 
     private void GetTicker_Click(object sender, RoutedEventArgs e)
     {
-        MessageBox.Show("Я тикер, я работаю");
+        _ = RestAPIClient.GetTickers();
     }
 
     private void Update_Click(object sender, RoutedEventArgs e)
