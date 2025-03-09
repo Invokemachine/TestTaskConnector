@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using System.Windows;
 using Newtonsoft.Json;
+using TestTask.Windows;
 
 public class RestAPIClient
 {
@@ -9,6 +10,7 @@ public class RestAPIClient
     {
         HttpClient httpClient = new HttpClient();
         httpClient.BaseAddress = new Uri("https://api.bitfinex.com/v2/");
+        MainWindow mainwindow = new MainWindow();
 
         try
         {
@@ -17,6 +19,8 @@ public class RestAPIClient
             if (response.IsSuccessStatusCode)
             {
                 string responseData = await response.Content.ReadAsStringAsync();
+
+                mainwindow.MainDataGrid.DataContext = responseData;
                 MessageBox.Show(responseData);
             }
             else

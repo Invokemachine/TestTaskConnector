@@ -9,7 +9,7 @@
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
 
-        <DataGrid x:Name="MainDataGrid" Grid.Row="1" Margin="5" AutoGenerateColumns="True" IsManipulationEnabled="True"/>
+        <DataGrid x:Name="MainDataGrid" ItemsSource="{Binding Trades}" Grid.Row="1" Margin="5" AutoGenerateColumns="True" IsManipulationEnabled="True"/>
 
         <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="10">
             <Button Content="Показать баланс" Click="ShowBalance_Click"/>

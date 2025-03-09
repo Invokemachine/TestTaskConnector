@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Newtonsoft.Json;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -28,8 +29,7 @@ public partial class MainWindow : Window
 
     private void GetTrades_Click(object sender, RoutedEventArgs e)
     {
-        RestAPIClient restAPIClient = new RestAPIClient();
-        Task task = RestAPIClient.Main(null);
+        
     }
 
     private void GetCandles_Click(object sender, RoutedEventArgs e)

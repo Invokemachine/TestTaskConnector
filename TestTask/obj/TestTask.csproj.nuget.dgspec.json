@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\q\\source\\repos\\TestTaskConnector-TestTaskConnector\\TestTask\\TestTask.csproj": {}
+    "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\TestTask.csproj": {}
   },
   "projects": {
-    "C:\\Users\\q\\source\\repos\\TestTaskConnector-TestTaskConnector\\TestTask\\TestTask.csproj": {
+    "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\TestTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\q\\source\\repos\\TestTaskConnector-TestTaskConnector\\TestTask\\TestTask.csproj",
+        "projectUniqueName": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\TestTask.csproj",
         "projectName": "TestTask",
-        "projectPath": "C:\\Users\\q\\source\\repos\\TestTaskConnector-TestTaskConnector\\TestTask\\TestTask.csproj",
+        "projectPath": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\TestTask.csproj",
         "packagesPath": "C:\\Users\\q\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\q\\source\\repos\\TestTaskConnector-TestTaskConnector\\TestTask\\obj\\",
+        "outputPath": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
