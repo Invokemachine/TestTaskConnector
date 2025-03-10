@@ -8,7 +8,7 @@ namespace TestTask.Models
 {
     public class Candles
     {
-        public DateTime Timestamp { get; set; }
+        public decimal MTS { get; set; }
         public decimal Open { get; set; }
         public decimal Close { get; set; }
         public decimal High { get; set; }

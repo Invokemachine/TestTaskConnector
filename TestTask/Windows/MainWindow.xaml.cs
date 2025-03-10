@@ -35,7 +35,7 @@ public partial class MainWindow : Window
 
     private void GetCandles_Click(object sender, RoutedEventArgs e)
     {
-        MessageBox.Show("Я свечи, я работаю");
+        _ = RestAPIClient.GetCandles();
     }
 
     private void GetTicker_Click(object sender, RoutedEventArgs e)

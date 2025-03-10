@@ -16,8 +16,6 @@ public class RestAPIClient
         try
         {
             var trades = await restAPIController.GetTradesAsync("tBTCUSD");         //Вызов метода из контроллера, позже нужно добавить возможность изменять этот параметр пользователю
-            string tradesInfo = string.Join(Environment.NewLine, trades.Select(t =>$"ID: {t.Id}, Время: {t.Timestamp}, Количество: {t.Amount}, Стоимость: {t.Price}"));
-            MessageBox.Show(tradesInfo, "Результат запроса");
         }
         catch (Exception ex)
         {
@@ -33,6 +31,21 @@ public class RestAPIClient
         try
         {
             var tickers = await restAPIController.GetTickerAsync("tBTCUSD");         //Вызов метода из контроллера, позже нужно добавить возможность изменять этот параметр пользователю
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Exception: {ex.Message}", "Ошибка");
+        }
+    }
+
+    public static async Task GetCandles()
+    {
+        HttpClient httpClient = new HttpClient();
+        RestAPIController restAPIController = new RestAPIController(httpClient);
+
+        try
+        {
+            var candles = await restAPIController.GetCandlesAsync("tBTCUSD",1);         //Помимо валют передается время в минутах вторым параметром
         }
         catch (Exception ex)
         {

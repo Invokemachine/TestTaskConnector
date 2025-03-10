@@ -40,6 +40,8 @@ namespace TestTask.Controllers
                 };
                 trades.Add(trade);
             }
+            string tradesInfo = string.Join(Environment.NewLine, trades.Select(t => $"ID: {t.Id}, Время: {t.Timestamp}, Количество: {t.Amount}, Стоимость: {t.Price}"));
+            MessageBox.Show(tradesInfo, "Результат запроса");
             return trades;
         }
 
@@ -67,17 +69,36 @@ namespace TestTask.Controllers
                 $"Запрос: {tickers.Ask}\n" +
                 $"Последняя цена: {tickers.LastPrice}\n" +
                 $"Объём: {tickers.Volume}\n" +
-                $"Высшая: {tickers.High}\n" +
-                $"Низшая: {tickers.Low}",
+                $"Максимальная: {tickers.High}\n" +
+                $"Минимальная: {tickers.Low}",
                 "Ticker Info"
             );
             return tickers;
         }
 
-        public async Task<string> GetCandlesAsync(string value, int timeframe)
+        public async Task<List<Candles>>GetCandlesAsync(string value, int timeframe)
         {
-            var response = await _httpClient.GetStringAsync($"{Url}candles/trade:{timeframe}:{value}/hist");
-            return response;
+            var response = await _httpClient.GetStringAsync($"{Url}candles/trade%3A{timeframe}m%3A{value}/hist");
+            var candlesData = JsonConvert.DeserializeObject<List<decimal[]>>(response);
+
+            var candles = new List<Candles>();
+            foreach (var candleData in candlesData)
+            {
+                var candle = new Candles
+                {
+                    MTS = timeframe,
+                    Open = candleData[1], 
+                    Close = candleData[2], 
+                    High = candleData[3],  
+                    Low = candleData[4],   
+                    Volume = candleData[5] 
+                };
+                candles.Add(candle);
+            }
+            string candlesInfo = string.Join(Environment.NewLine, candles.Select(c => $"Временной промежуток: {c.MTS}, Цена открытия: {c.Open}, " +
+                $"Цена закрытия: {c.Close}, Макс. цена: {c.High}, Мин. цена: {c.Low}, Объём: {c.Volume}"));
+            MessageBox.Show(candlesInfo, "Результат запроса");
+            return candles;
         }
-    } 
+    }
 }
