@@ -8,11 +8,21 @@ namespace TestTask.Controllers
     {
         private ClientWebSocket _webSocket;
 
-        public async Task ConnectAndSubscribeAsync(string currencyPair)
+        public async Task TradesConnectAndSubscribeAsync(string currencyPair)
         {
             _webSocket = new ClientWebSocket();
             await _webSocket.ConnectAsync(new Uri("wss://api-pub.bitfinex.com/ws/2"), CancellationToken.None);
             var subscribeMessage = $"{{\"event\":\"subscribe\",\"channel\":\"trades\",\"symbol\":\"{currencyPair}\"}}"; //Подписка на трейды
+            var buffer = Encoding.UTF8.GetBytes(subscribeMessage);
+            await _webSocket.SendAsync(new ArraySegment<byte>(buffer), WebSocketMessageType.Text, true, CancellationToken.None);
+            await ReceiveMessagesAsync();
+        }
+
+        public async Task CandlesConnectAndSubscribeAsync(string currencyPair, int timeFrame)
+        {
+            _webSocket = new ClientWebSocket();
+            await _webSocket.ConnectAsync(new Uri("wss://api-pub.bitfinex.com/ws/2"), CancellationToken.None);
+            var subscribeMessage = $"{{\"event\":\"subscribe\",\"channel\":\"candles\",\"key\":\"trade:{timeFrame}:{currencyPair}\"}}";
             var buffer = Encoding.UTF8.GetBytes(subscribeMessage);
             await _webSocket.SendAsync(new ArraySegment<byte>(buffer), WebSocketMessageType.Text, true, CancellationToken.None);
             await ReceiveMessagesAsync();
@@ -31,5 +41,6 @@ namespace TestTask.Controllers
                 }
             }
         }
+        
     }
 }

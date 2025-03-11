@@ -15,11 +15,6 @@ public partial class MainWindow : Window
         WebSocketAPIClient webSocket = new WebSocketAPIClient();
     }
 
-    private void ShowBalance_Click(object sender, RoutedEventArgs e)
-    {
-        MessageBox.Show("Я баланс, я работаю");
-    }
-
     private void GetTrades_Click(object sender, RoutedEventArgs e)
     {
         _ = RestAPIClient.GetTrades();
@@ -42,6 +37,6 @@ public partial class MainWindow : Window
 
     private void UpdatedCandles_Click(object sender, RoutedEventArgs e)
     {
-
+        WebSocketAPIClient.ConnectToCandles();
     }
 }

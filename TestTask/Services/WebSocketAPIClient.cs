@@ -12,9 +12,21 @@ namespace TestTask.Services
             try
             {
                 var webSocketClient = new WebSocketAPIController();
-                webSocketClient.ConnectAndSubscribeAsync("tBTCUSD");
+                webSocketClient.TradesConnectAndSubscribeAsync("tBTCUSD");
             }
             catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка");
+            }
+        }
+        public static void ConnectToCandles()
+        {
+            try
+            {
+                var webSocketClient = new WebSocketAPIController();
+                webSocketClient.CandlesConnectAndSubscribeAsync("tBTCUSD", 1);
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Ошибка");
             }
