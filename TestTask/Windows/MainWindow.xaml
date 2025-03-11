@@ -19,7 +19,8 @@
             <Button Content="Получить трейды" Click="GetTrades_Click"/>
             <Button Content="Получить свечи" Click="GetCandles_Click"/>
             <Button Content="Получить тикер" Click="GetTicker_Click"/>
-            <Button Content="Обновить" Click="Update_Click"/>
+            <Button Content="Инф. о трейдах" Click="UpdatedTrades_Click"/>
+            <Button Content="Инф. о свечах" Click="UpdatedCandles_Click"/>
         </StackPanel>
     </Grid>
 </Window>

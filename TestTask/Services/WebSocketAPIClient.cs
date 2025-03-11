@@ -1,28 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.WebSockets;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
+using TestTask.Controllers;
 
 namespace TestTask.Services
 {
-    class WebSocketAPIClient
+    public class WebSocketAPIClient
     {
-        public async Task ConnectAsync(string url, CancellationToken cancellationToken)
+        static WebSocketAPIController _webSocketController;
+
+        public static void ConnectToTrades()
         {
             try
             {
-                using (ClientWebSocket clientWebSocket = new ClientWebSocket())
-                {
-                    Uri serverUri = new Uri("https://api-pub.bitfinex.com/");
-                    await clientWebSocket.ConnectAsync(serverUri, CancellationToken.None);
-                }
+                var webSocketClient = new WebSocketAPIController();
+                webSocketClient.ConnectAndSubscribeAsync("tBTCUSD");
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Ошибка");
             }
         }
     }

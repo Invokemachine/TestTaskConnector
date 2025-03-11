@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\controllers\\restapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\controllers\\restapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\services\\restapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\services\\restapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\models\\trades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\models\\trades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\controllers\\websocketapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\controllers\\websocketapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\services\\websocketapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\services\\websocketapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\models\\candles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\models\\candles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\windows\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\windows\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\models\\tickers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\models\\tickers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\services\\websocketapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\services\\websocketapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\controllers\\websocketapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\controllers\\websocketapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -50,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\App.xaml",
               "RelativeDocumentMoniker": "TestTask\\App.xaml",
@@ -67,15 +47,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Trades.cs",
               "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Models\\Trades.cs",
               "RelativeDocumentMoniker": "TestTask\\Models\\Trades.cs",
               "ToolTip": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Models\\Trades.cs",
               "RelativeToolTip": "TestTask\\Models\\Trades.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:39:02.423Z",
+              "WhenOpened": "2025-03-11T17:36:48.822Z",
               "EditorCaption": ""
             },
             {
@@ -93,92 +73,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Windows\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TestTask\\Windows\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Windows\\MainWindow.xaml.cs",
-              "RelativeToolTip": "TestTask\\Windows\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADgvyUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:21:24.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Windows\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "TestTask\\Windows\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Windows\\MainWindow.xaml",
-              "RelativeToolTip": "TestTask\\Windows\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-09T20:21:17.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Tickers.cs",
-              "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Models\\Tickers.cs",
-              "RelativeDocumentMoniker": "TestTask\\Models\\Tickers.cs",
-              "ToolTip": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Models\\Tickers.cs",
-              "RelativeToolTip": "TestTask\\Models\\Tickers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T19:38:56.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RestAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Controllers\\RestAPIController.cs",
-              "RelativeDocumentMoniker": "TestTask\\Controllers\\RestAPIController.cs",
-              "ToolTip": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Controllers\\RestAPIController.cs",
-              "RelativeToolTip": "TestTask\\Controllers\\RestAPIController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAFYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T16:51:03.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Candles.cs",
-              "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Models\\Candles.cs",
-              "RelativeDocumentMoniker": "TestTask\\Models\\Candles.cs",
-              "ToolTip": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Models\\Candles.cs",
-              "RelativeToolTip": "TestTask\\Models\\Candles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:19:41.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RestAPIClient.cs",
-              "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Services\\RestAPIClient.cs",
-              "RelativeDocumentMoniker": "TestTask\\Services\\RestAPIClient.cs",
-              "ToolTip": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Services\\RestAPIClient.cs",
-              "RelativeToolTip": "TestTask\\Services\\RestAPIClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T07:12:22.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "WebSocketAPIClient.cs",
               "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Services\\WebSocketAPIClient.cs",
               "RelativeDocumentMoniker": "TestTask\\Services\\WebSocketAPIClient.cs",
               "ToolTip": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Services\\WebSocketAPIClient.cs",
               "RelativeToolTip": "TestTask\\Services\\WebSocketAPIClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T20:39:05.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Windows\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TestTask\\Windows\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Windows\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TestTask\\Windows\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T20:21:24.174Z",
               "EditorCaption": ""
             }
           ]

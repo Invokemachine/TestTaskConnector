@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9Na2RTya9as=",
+  "dgSpecHash": "OY0licgXz/w=",
   "success": true,
   "projectFilePath": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\TestTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\q\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\q\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512"
+    "C:\\Users\\q\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512",
+    "C:\\Users\\q\\.nuget\\packages\\websocketsharp.netcore\\1.0.0\\websocketsharp.netcore.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

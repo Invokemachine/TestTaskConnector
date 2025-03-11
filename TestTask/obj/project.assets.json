@@ -27,6 +27,15 @@
             "related": ".xml"
           }
         }
+      },
+      "WebSocketSharp.NetCore/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/WebSocketSharp.NetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/WebSocketSharp.NetCore.dll": {}
+        }
       }
     }
   },
@@ -85,12 +94,25 @@
         "restsharp.nuspec",
         "restsharp.png"
       ]
+    },
+    "WebSocketSharp.NetCore/1.0.0": {
+      "sha512": "q2KZLV6RAqfSpHxqHZZz7SkBewnECEyPs0fWYfwOiLmm7n7nR9imF/hRadXGNikIH0zhs8VWcz9RHgM2Jcd4Wg==",
+      "type": "package",
+      "path": "websocketsharp.netcore/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/WebSocketSharp.NetCore.dll",
+        "websocketsharp.netcore.1.0.0.nupkg.sha512",
+        "websocketsharp.netcore.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Newtonsoft.Json >= 13.0.3",
-      "RestSharp >= 112.1.0"
+      "RestSharp >= 112.1.0",
+      "WebSocketSharp.NetCore >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -151,6 +173,10 @@
           "RestSharp": {
             "target": "Package",
             "version": "[112.1.0, )"
+          },
+          "WebSocketSharp.NetCore": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [

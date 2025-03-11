@@ -1,14 +1,5 @@
-﻿using Newtonsoft.Json;
-using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using TestTask.Services;
 
 namespace TestTask.Windows;
 
@@ -21,6 +12,7 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
         RestAPIClient rest = new RestAPIClient();
+        WebSocketAPIClient webSocket = new WebSocketAPIClient();
     }
 
     private void ShowBalance_Click(object sender, RoutedEventArgs e)
@@ -43,9 +35,13 @@ public partial class MainWindow : Window
         _ = RestAPIClient.GetTickers();
     }
 
-    private void Update_Click(object sender, RoutedEventArgs e)
+    private void UpdatedTrades_Click(object sender, RoutedEventArgs e)
     {
-        MessageBox.Show("Я обновление, я работаю");
+        WebSocketAPIClient.ConnectToTrades();
     }
 
+    private void UpdatedCandles_Click(object sender, RoutedEventArgs e)
+    {
+
+    }
 }
