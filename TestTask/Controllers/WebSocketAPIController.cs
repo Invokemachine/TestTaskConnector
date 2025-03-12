@@ -7,6 +7,7 @@ namespace TestTask.Controllers
     class WebSocketAPIController
     {
         private ClientWebSocket _webSocket;
+        private string MessageOrigin;
 
         public async Task TradesConnectAndSubscribeAsync(string currencyPair)
         {
@@ -15,6 +16,7 @@ namespace TestTask.Controllers
             var subscribeMessage = $"{{\"event\":\"subscribe\",\"channel\":\"trades\",\"symbol\":\"{currencyPair}\"}}"; //Подписка на трейды
             var buffer = Encoding.UTF8.GetBytes(subscribeMessage);
             await _webSocket.SendAsync(new ArraySegment<byte>(buffer), WebSocketMessageType.Text, true, CancellationToken.None);
+            MessageOrigin = "Trades";
             await ReceiveMessagesAsync();
         }
 
@@ -25,6 +27,7 @@ namespace TestTask.Controllers
             var subscribeMessage = $"{{\"event\":\"subscribe\",\"channel\":\"candles\",\"key\":\"trade:{timeFrame}:{currencyPair}\"}}";
             var buffer = Encoding.UTF8.GetBytes(subscribeMessage);
             await _webSocket.SendAsync(new ArraySegment<byte>(buffer), WebSocketMessageType.Text, true, CancellationToken.None);
+            MessageOrigin = "Candles";
             await ReceiveMessagesAsync();
         }
 
@@ -37,10 +40,15 @@ namespace TestTask.Controllers
                 if (result.MessageType == WebSocketMessageType.Text)
                 {
                     var message = Encoding.UTF8.GetString(buffer, 0, result.Count);
-                    MessageBox.Show("Message received: " + message); 
+                    if (MessageOrigin == "Trades")
+                        MessageBox.Show("Обновление трейдов: " + message);
+                    else if (MessageOrigin == "Candles")
+                        MessageBox.Show("Обновление свечей: " + message);
+                    else
+                        MessageBox.Show("Ошибка!");
                 }
             }
         }
-        
+
     }
 }

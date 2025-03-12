@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using TestTask.Controllers;
 using TestTask.Services;
 
 namespace TestTask.Windows;
@@ -13,6 +14,8 @@ public partial class MainWindow : Window
         InitializeComponent();
         RestAPIClient rest = new RestAPIClient();
         WebSocketAPIClient webSocket = new WebSocketAPIClient();
+        var portfolio = PortfolioController.InitializeCurrencies();
+        MainDataGrid.ItemsSource = portfolio.Currencies;
     }
 
     private void GetTrades_Click(object sender, RoutedEventArgs e)

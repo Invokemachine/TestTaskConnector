@@ -10,7 +10,17 @@
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
 
-        <DataGrid x:Name="MainDataGrid" ItemsSource="{Binding Trades}" Grid.Row="1" Margin="5" AutoGenerateColumns="True" IsManipulationEnabled="True"/>
+        <DataGrid x:Name="MainDataGrid" Grid.Row="1" Margin="5" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Currency" Binding="{Binding CurrencyName}" />
+                <DataGridTextColumn Header="Amount" Binding="{Binding Amount, StringFormat=N2}" />
+                <DataGridTextColumn Header="Amount in BTC" Binding="{Binding AmountInBTC, StringFormat=N2}" />
+                <DataGridTextColumn Header="Amount in XPR" Binding="{Binding AmountInXPR, StringFormat=N2}" />
+                <DataGridTextColumn Header="Amount in XMR" Binding="{Binding AmountInXMR, StringFormat=N2}" />
+                <DataGridTextColumn Header="Amount in DASH" Binding="{Binding AmountInDASH, StringFormat=N2}" />
+                <DataGridTextColumn Header="Amount in USD" Binding="{Binding AmountInUSD, StringFormat=N2}" />
+            </DataGrid.Columns>
+        </DataGrid>
 
         <StackPanel x:Name="TopStackPanel" Orientation="Horizontal" Grid.Row="0" Margin="10">
             <Label Content="Bitfinex"/>
