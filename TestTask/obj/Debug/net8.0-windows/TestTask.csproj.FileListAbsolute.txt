@@ -71,3 +71,7 @@ C:\Users\q\source\repos\TestTaskConnector\TestTask\obj\Debug\net8.0-windows\Test
 C:\Users\q\source\repos\TestTaskConnector\TestTask\obj\Debug\net8.0-windows\ref\TestTask.dll
 C:\Users\q\source\repos\TestTaskConnector\TestTask\bin\Debug\net8.0-windows\RestSharp.dll
 C:\Users\q\source\repos\TestTaskConnector\TestTask\bin\Debug\net8.0-windows\WebSocketSharp.NetCore.dll
+C:\Users\q\source\repos\TestTaskConnector\TestTask\bin\Debug\net8.0-windows\xunit.abstractions.dll
+C:\Users\q\source\repos\TestTaskConnector\TestTask\bin\Debug\net8.0-windows\xunit.assert.dll
+C:\Users\q\source\repos\TestTaskConnector\TestTask\bin\Debug\net8.0-windows\xunit.core.dll
+C:\Users\q\source\repos\TestTaskConnector\TestTask\bin\Debug\net8.0-windows\xunit.execution.dotnet.dll

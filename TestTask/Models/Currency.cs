@@ -16,6 +16,6 @@ namespace TestTask.Models
         public decimal AmountInDASH { get; set; }
         public decimal AmountInUSD { get; set; }
         public decimal TotalAmount { get; set; }
-        public decimal TotalAmountInUSD = 126795.9m;
+        public decimal TotalAmountInUSD = 126821.4m;
     }
 }
