@@ -51,7 +51,7 @@ namespace TestTask.Controllers
                         currency.AmountInBTC = currency.Amount * USDtoXMR / USDtoBTC;
                         currency.AmountInXPR = currency.Amount * USDtoXMR / USDtoXPR;
                         currency.AmountInXMR = currency.Amount;
-                        currency.AmountInDASH = currency.Amount * USDtoXPR / USDtoDASH;
+                        currency.AmountInDASH = currency.Amount * USDtoXMR / USDtoDASH;
                         currency.AmountInUSD = currency.Amount * USDtoXMR;
                         currency.TotalAmount = currency.TotalAmountInUSD / USDtoXMR;
                         break;

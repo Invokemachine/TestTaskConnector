@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\controllers\\restapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\controllers\\restapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\windows\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\windows\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\controllers\\websocketapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\controllers\\restapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\controllers\\restapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|solutionrelative:testtask\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E420CA07-654C-4228-96F4-148352C971B3}|TestTask\\TestTask.csproj|c:\\users\\q\\source\\repos\\testtaskconnector\\testtask\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -59,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "WebSocketAPIController.cs",
               "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Controllers\\WebSocketAPIController.cs",
               "RelativeDocumentMoniker": "TestTask\\Controllers\\WebSocketAPIController.cs",
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Windows\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "TestTask\\Windows\\MainWindow.xaml.cs",
@@ -91,14 +91,14 @@
               "RelativeDocumentMoniker": "TestTask\\Controllers\\PortfolioController.cs",
               "ToolTip": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Controllers\\PortfolioController.cs",
               "RelativeToolTip": "TestTask\\Controllers\\PortfolioController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwCsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T07:24:37.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Currency.cs",
               "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Models\\Currency.cs",
               "RelativeDocumentMoniker": "TestTask\\Models\\Currency.cs",
@@ -119,12 +119,11 @@
               "RelativeToolTip": "TestTask\\Models\\Portfolio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T07:21:30.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T07:21:30.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Windows\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TestTask\\Windows\\MainWindow.xaml",
@@ -136,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "RestAPIController.cs",
               "DocumentMoniker": "C:\\Users\\q\\source\\repos\\TestTaskConnector\\TestTask\\Controllers\\RestAPIController.cs",
               "RelativeDocumentMoniker": "TestTask\\Controllers\\RestAPIController.cs",

@@ -1,8 +1,9 @@
 ﻿<Window x:Class="TestTask.Windows.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Connector" Height="450" Width="800">
-    <Grid Background="#FF939A93">
+        Title="Connector" Height="450" Width="800"
+        Icon="/Resources/TitleLogo.JPG">
+    <Grid Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
             <RowDefinition Height="9*"/>
@@ -19,11 +20,12 @@
                 <DataGridTextColumn Header="Amount in XMR" Binding="{Binding AmountInXMR, StringFormat=N2}" />
                 <DataGridTextColumn Header="Amount in DASH" Binding="{Binding AmountInDASH, StringFormat=N2}" />
                 <DataGridTextColumn Header="Amount in USD" Binding="{Binding AmountInUSD, StringFormat=N2}" />
+                <DataGridTextColumn Header="Total amount" Binding="{Binding TotalAmount, StringFormat=N2}" />
             </DataGrid.Columns>
         </DataGrid>
 
         <StackPanel x:Name="TopStackPanel" Orientation="Horizontal" Grid.Row="0" Margin="10">
-            <Label Content="Bitfinex"/>
+            <Image Source="/Resources/BitfinexLogo.JPG"/>
         </StackPanel>
 
         <Label Content="RestAPI" Grid.Row="2" HorizontalAlignment="Left" Margin="2"/>
