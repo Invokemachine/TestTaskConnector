@@ -76,7 +76,7 @@ namespace TestTask.Controllers
             return tickers;
         }
 
-        public async Task<List<Candles>>GetCandlesAsync(string value, int timeframe)
+        public async Task<List<Candles>>GetCandlesAsync(string value, int timeframe)        //Получение информации о свечах (временной промежуток задан 1 минута, поменять)
         {
             var response = await _httpClient.GetStringAsync($"{Url}candles/trade%3A{timeframe}m%3A{value}/hist");
             var candlesData = JsonConvert.DeserializeObject<List<decimal[]>>(response);

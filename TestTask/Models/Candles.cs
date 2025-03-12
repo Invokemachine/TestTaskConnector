@@ -8,7 +8,7 @@ namespace TestTask.Models
 {
     public class Candles
     {
-        public decimal MTS { get; set; }
+        public decimal MTS { get; set; }        //Временной промежуток
         public decimal Open { get; set; }
         public decimal Close { get; set; }
         public decimal High { get; set; }

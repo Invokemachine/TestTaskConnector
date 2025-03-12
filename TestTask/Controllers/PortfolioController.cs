@@ -27,7 +27,7 @@ namespace TestTask.Controllers
             decimal USDtoXMR = 207.45m;
             decimal USDtoDASH = 21.93m;
 
-            foreach (var currency in portfolio.Currencies)
+            foreach (var currency in portfolio.Currencies)      //Пересчет валют для вывода в datagrid
             {
                 switch (currency.CurrencyName)
                 {
