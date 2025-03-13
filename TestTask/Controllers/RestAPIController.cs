@@ -71,7 +71,7 @@ namespace TestTask.Controllers
                 $"Объём: {tickers.Volume}\n" +
                 $"Максимальная: {tickers.High}\n" +
                 $"Минимальная: {tickers.Low}",
-                "Ticker Info"
+                "Информация о тикере"
             );
             return tickers;
         }

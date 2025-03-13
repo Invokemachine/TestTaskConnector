@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.Diagnostics;
+using System.Windows;
 using TestTask.Controllers;
 using TestTask.Services;
 
@@ -14,6 +15,7 @@ public partial class MainWindow : Window
         InitializeComponent();
         RestAPIClient rest = new RestAPIClient();
         WebSocketAPIClient webSocket = new WebSocketAPIClient();
+        MainWindowEventsHandler mainWindowEventsHandler = new MainWindowEventsHandler();
         var portfolio = PortfolioController.InitializeCurrencies();
         MainDataGrid.ItemsSource = portfolio.Currencies;
     }
@@ -41,5 +43,15 @@ public partial class MainWindow : Window
     private void UpdatedCandles_Click(object sender, RoutedEventArgs e)
     {
         WebSocketAPIClient.ConnectToCandles();
+    }
+
+    private void OpenWebSiteLink(object sender, System.Windows.Input.MouseButtonEventArgs e)
+    {
+        MainWindowEventsHandler.OpenLink();
+    }
+
+    private void OpenInformation(object sender, RoutedEventArgs e)
+    {
+        MainWindowEventsHandler.OpenInformation();
     }
 }

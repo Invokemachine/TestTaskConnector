@@ -25,7 +25,8 @@
         </DataGrid>
 
         <StackPanel x:Name="TopStackPanel" Orientation="Horizontal" Grid.Row="0" Margin="10">
-            <Image Source="/Resources/BitfinexLogo.JPG"/>
+            <Image Source="/Resources/BitfinexLogo.JPG" MouseDown="OpenWebSiteLink"/>
+            <Button x:Name="HelperButton" Content="?" Width="20" Height="20" Click="OpenInformation"/>
         </StackPanel>
 
         <Label Content="RestAPI" Grid.Row="2" HorizontalAlignment="Left" Margin="2"/>
